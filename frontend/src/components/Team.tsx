@@ -31,7 +31,7 @@ export default function Team() {
         {/* Heading */}
         <div className="text-center">
           <h2 className="text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl">
-            🧡 Meet Our Team
+            🧡 Meet Our <span className="text-orange-600">Team</span>
           </h2>
         </div>
 

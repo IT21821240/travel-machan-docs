@@ -24,7 +24,7 @@ export default function Tools() {
         {/* Heading */}
         <div className="text-center">
           <h2 className="text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl">
-            🧰 Tools & Technologies
+            🧰 Tools & <span className="text-orange-600">Technologies</span>
           </h2>
           <p className="mx-auto mt-2 max-w-2xl text-slate-600">
             The stack behind TravelMachan — from frontend to AI and deployment.

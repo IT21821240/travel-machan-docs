@@ -65,7 +65,7 @@ export default function Milestones() {
         {/* Heading */}
         <div className="mb-10 text-center md:mb-12">
           <h2 className="text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl">
-            🗓️ Project Milestones
+            🗓️ Project <span className="text-orange-600">Milestones</span>
           </h2>
         </div>
 

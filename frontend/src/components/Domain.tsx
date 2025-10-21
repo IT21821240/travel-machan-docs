@@ -145,8 +145,8 @@ export default function Domain() {
       <div className="mx-auto max-w-6xl px-4 py-20 md:py-24">
         {/* heading */}
         <div className="text-center">
-          <h2 className="text-3xl font-extrabold tracking-tight text-orange-600 sm:text-4xl">
-            🔎 Research Domain
+          <h2 className="text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl">
+            🔎 Research <span className="text-orange-600">Domain</span>
           </h2>
 
           {/* pills */}

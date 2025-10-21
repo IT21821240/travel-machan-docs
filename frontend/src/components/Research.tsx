@@ -10,7 +10,7 @@ export default function Research() {
         {/* Heading */}
         <div className="text-center">
           <h2 className="text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl">
-            Research <span className="text-orange-600">Highlights</span>
+           💡Research <span className="text-orange-600">Highlights</span>
           </h2>
         </div>
 

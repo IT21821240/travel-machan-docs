@@ -15,17 +15,17 @@ const CATEGORIES: Category[] = [
   {
     name: 'Project Proposal',
     items: [
-      { title: 'Proposal Report - IT21821240', fileName: 'proposal-it21821240.pdf' },
-      { title: 'Proposal Report - IT21831768', fileName: 'proposal-it21831768.pdf' },
-      { title: 'Proposal Report - IT21835728', fileName: 'proposal-it21835728.pdf' },
+      { title: 'Proposal Report IT21821240', fileName: 'proposal-it21821240.pdf' },
+      { title: 'Proposal Report IT21831768', fileName: 'proposal-it21831768.pdf' },
+      { title: 'Proposal Report IT21835728', fileName: 'proposal-it21835728.pdf' },
     ],
   },
   {
     name: 'Final Reports',
     items: [
-      { title: 'Final Report - IT21821240', fileName: 'final-it21821240.pdf' },
-      { title: 'Final Report - IT21831768', fileName: 'final-it21831768.pdf' },
-      { title: 'Final Report - IT21835728', fileName: 'final-it21835728.pdf' },
+      { title: 'Final Report IT21821240', fileName: 'final-it21821240.pdf' },
+      { title: 'Final Report IT21831768', fileName: 'final-it21831768.pdf' },
+      { title: 'Final Report IT21835728', fileName: 'final-it21835728.pdf' },
       { title: 'Final Group Report', fileName: 'final-group.pdf' },
     ],
   },
@@ -33,8 +33,8 @@ const CATEGORIES: Category[] = [
     name: 'Presentations',
     items: [
       { title: 'Proposal Presentation', fileName: 'proposal-presentation.pdf' },
-      { title: 'Progress Presentation 1', fileName: 'progress-1.pdf' },
-      { title: 'Progress Presentation 2', fileName: 'progress-2.pdf' },
+      { title: 'Progress Presentation-1', fileName: 'progress-1.pdf' },
+      { title: 'Progress Presentation-2', fileName: 'progress-2.pdf' },
       { title: 'Final Presentation', fileName: 'final-presentation.pdf' },
     ],
   },
@@ -64,8 +64,8 @@ export default function Docs() {
       <div className="mx-auto max-w-6xl px-4 py-20 md:py-24">
         {/* Heading */}
         <div className="text-center">
-          <h2 className="text-3xl font-extrabold tracking-tight text-black-700 sm:text-4xl">
-            📚 Project Documents
+          <h2 className="text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl">
+            📚 Project <span className="text-orange-600">Documents</span>
           </h2>
         </div>
 
@@ -97,7 +97,7 @@ function DocCard({ doc }: { doc: Doc }) {
       </div>
 
       <div className="min-w-0">
-        <p className="truncate text-slate-900 font-medium">{doc.title}</p>
+        <p className="text-slate-900 font-medium line-clamp-2">{doc.title}</p>
 
         <div className="mt-3 flex flex-wrap gap-6 text-sm">
           <a

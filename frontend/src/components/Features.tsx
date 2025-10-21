@@ -25,7 +25,7 @@ export default function Features() {
         {/* Heading */}
         <div className="mb-10 text-center md:mb-12">
           <h2 className="text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl">
-            Key Features Overview
+            🚀 Key Features <span className="text-orange-600">Overview</span>
           </h2>
         </div>
 

@@ -1,14 +1,15 @@
-import React from 'react'
-import Navbar from './components/Navbar'
-import Hero from './components/Hero'
-import About from './components/About'
-import Domain from './components/Domain'
-import Research from './components/Research'
-import Features from './components/Features'
-import Tools from './components/Tools' 
-import Milestones from './components/Milestones'
-import Team from './components/Team'
-import Docs from './components/Docs'
+import React from "react";
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import About from "./components/About";
+import Domain from "./components/Domain";
+import Research from "./components/Research";
+import Features from "./components/Features";
+import Tools from "./components/Tools";
+import Milestones from "./components/Milestones";
+import Team from "./components/Team";
+import Docs from "./components/Docs";
+import ProjectLinks from "./components/ProjectLinks";
 
 export default function App() {
   return (
@@ -17,7 +18,7 @@ export default function App() {
 
       <main>
         {/* Hero / Home */}
-         <Hero />
+        <Hero />
 
         {/* About */}
         <About />
@@ -26,7 +27,7 @@ export default function App() {
         <Domain />
 
         {/* Research */}
-       <Research />
+        <Research />
 
         {/* Feature */}
         <Features />
@@ -38,16 +39,22 @@ export default function App() {
         <Milestones />
 
         {/* Docs (matches #docs in Navbar) */}
-       <Docs />
+        <Docs />
 
         {/* Team */}
         <Team />
 
+        {/* Project Links */}
+        <ProjectLinks />
       </main>
 
-      <footer className="border-t py-8 text-center text-sm text-slate-500">
-        © {new Date().getFullYear()} TravelMachan
+      <footer className="bg-gradient-to-b from-orange-100 to-orange-200 text-black py-8 text-center text-sm">
+        <p>
+          © {new Date().getFullYear()}{" "}
+          <span className="font-semibold">TravelMachan</span>. Built with ❤️,
+          Your trusted companion for smart travel planning.
+        </p>
       </footer>
     </div>
-  )
+  );
 }
