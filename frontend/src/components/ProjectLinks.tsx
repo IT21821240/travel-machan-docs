@@ -38,7 +38,7 @@ const ProjectLinks: React.FC = () => {
             <FaGlobe className="text-4xl text-orange-500 mb-4" />
             <h3 className="text-xl font-semibold mb-2">Frontend Deployment</h3>
             <a
-              href="https://research-project-brown.vercel.app/"
+              href="https://www.travelmachan.site/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-orange-600 font-medium hover:underline flex items-center gap-2"
